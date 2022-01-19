@@ -1,0 +1,27 @@
+whatever message it gets,it forwards all the message
+Thread.sleep()...It will sleep before sending som sec.
+Some mapping required for sending text message and returned to all..
+i.e all about in annotation..
+@MessageMapping--->It denotes if client sent message then only through it he has to sent..
+when message will send then it comes into the message body..
+@SendTo-It is for how many people is subscribed into respective url then text forwarded all of them..
+e.g suppose my channel is here in youtube...Who subscribe my channel, when i upload something
+all will get notification..
+
+In configureMessageBroker we have mention send and receive things..
+
+to connect with server:  /server
+to send message: /app/message
+                   {message body}
+
+to subscribe so that you can receive messages:/topic/return-to
+
+load document
+After login function will call basically which is call back function
+$(document).ready(e=> {
+
+       let name=$("#name-value").val()       //Here name in the variable
+         localStorage.setItem("name",name);  //add name to the local storage
+})
+
+var and let both same to store data as a variable...
