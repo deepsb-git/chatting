@@ -25,3 +25,14 @@ $(document).ready(e=> {
 })
 
 var and let both same to store data as a variable...
+
+
+Flow:-
+when we click on the send button it has a unique id..The unique id targeted in script.js with click as call
+back function with sendmessage() function call.
+In function call 1st build the message..getting name from local storage with message value as content
+then send json object with send message url....
+After that it will come to controller as message and passed through as message body...After passing
+it halted 2sec then return as message obj. 
+who ever subscribed it displayed function response with function body with parsing..passing through
+showmessage() function...This function display message..
